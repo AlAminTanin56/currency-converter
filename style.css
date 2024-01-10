@@ -1,62 +1,13 @@
-.headingClass {
-  color: crimson;
-}
-
 .mainBody {
   background: white;
-  font-family: sans-serif;
   height: 100%;
 }
-.dashboardWithNavbar {
-  display: flex;
-}
-.parentOfDashboard {
-  height: auto;
-  width: 300px;
-}
+
 .heading {
   color: black;
-  font-size: 24px;
+  font-size: 34px;
   font-weight: bolder;
 }
-.sidebar {
-  position: fixed;
-  height: "100%";
-}
-.dashboard {
-  overflow: hidden;
-  height: 100%;
-  color: white;
-  box-shadow: 6px 0px 6px white;
-}
-
-.sidebarElement {
-  border-bottom: 1px solid forestgreen;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  transition-duration: 120ms;
-  cursor: pointer;
-}
-
-.sidebarElement:hover {
-  background: forestgreen;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  color: black;
-  transition-duration: 150ms;
-}
-
-/* .content {
-  background: firebrick;
-  height: 100%;
-}
-.content::-webkit-scrollbar {
-  width: 0.5em;
-}
-
-.content::-webkit-scrollbar-thumb {
-  background-color: transparent;
-} */
 
 .holeNavbar {
   width: 100%;
@@ -70,27 +21,8 @@
   padding: 10px;
   border: 0;
   margin-bottom: 5px;
-  /* color: white; */
-  /* background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(9, 9, 121, 1) 35%,
-    rgba(0, 212, 255, 1) 100%
-  ); */
-  /* background-color: red; */
 }
 
-/* .source-currency:focus {
-  padding: 10px;
-  outline: none;
-  color: red;
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(9, 9, 121, 1) 35%,
-    rgba(0, 212, 255, 1) 100%
-  );
-} */
 .input-group {
   display: grid;
 }
@@ -191,31 +123,19 @@
 }
 
 .exchangeingButton {
-  /* background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(9, 9, 121, 1) 35%,
-    rgba(0, 212, 255, 1) 100%
-  ); */
-  color: darkred;
+  color: #fff;
   border-radius: 4px;
   padding-top: 8px;
   padding-bottom: 8px;
   /* transition-duration: 300ms; */
   border: 0;
+  background-color: #008cba;
 }
 .exchangeingButton:hover {
-  /* background: linear-gradient(
-    90deg,
-    rgba(0, 212, 255, 1) 0%,
-    rgba(9, 9, 121, 1) 35%,
-    rgba(2, 0, 36, 1) 100%
-  ); */
-  color: black;
+  color: #fff;
   border-radius: 4px;
   padding-top: 8px;
   padding-bottom: 8px;
   border: 0;
   cursor: pointer;
-  /* transition-duration: 100ms; */
 }
