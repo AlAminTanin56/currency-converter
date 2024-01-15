@@ -44,7 +44,7 @@ function convertCurrency(currencyData) {
 
         document.getElementById(
           "currentExchangeRate"
-        ).value = `Exchange Rate: 1 ${sourceCurrency} = ${sourceRate} ${destinationCurrency}`;
+        ).value = `Exchange Rate: 1 ${sourceCurrency} = ${sourceRate} gbp`;
         document.getElementById("source").value = `${sourceCurrency}`;
         document.getElementById("destination").value = `${destinationCurrency}`;
         document.getElementById(
