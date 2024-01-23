@@ -34,7 +34,18 @@
   justify-content: center;
   align-items: center;
 }
-
+.hero-text button {
+  padding: 0.8vw 1.2vw;
+  background-color:yellow;
+  border: 2px solid red;
+  text-align: center;
+  font-size: 1.2vw;
+  font-weight: 700;
+  color: black;
+  border-radius: 10px;
+  transition: 1s ease;
+  cursor: pointer;
+}
 /* Media Query */
 @media screen and (max-width: 767px) {
   .specific-card {
