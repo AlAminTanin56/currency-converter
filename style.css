@@ -11,7 +11,10 @@
 
 .holeNavbar {
   width: 100%;
-  color: white;
+  
+}
+.heading{
+  color: yellow;
 }
 .navbarContent {
   display: flex;
